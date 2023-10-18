@@ -76,7 +76,7 @@
 
 
 
-                                                      ![](Android Kick-Off\images\activity-lifecycle.png)
+![activity-lifecycle-image](https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/activity-lifecycle.png)
 
 
 
