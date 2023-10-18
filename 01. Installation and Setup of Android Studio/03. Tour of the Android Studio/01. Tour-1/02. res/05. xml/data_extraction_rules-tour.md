@@ -1,4 +1,6 @@
-The code you provided is an XML resource file, typically named `data_extraction_rules.xml`. This file is used to define rules for data extraction in the context of Android app backups and data transfer between devices. Let's break down the code:
+# An XML resource file, typically named `data_extraction_rules.xml`. 
+- This file is used to define rules for data extraction in the context of Android app backups and data transfer between devices.
+- Let's break down the code:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -45,4 +47,6 @@ The code you provided is an XML resource file, typically named `data_extraction_
 
 - The `<device-transfer>` element is used to specify rules for data transfer between devices. Similar to cloud backups, you can define what data should be included or excluded during device-to-device data transfer. The commented-out sections indicate where you should use `<include>` and `<exclude>` rules.
 
-In summary, this XML file is a template for defining data extraction rules in the context of Android app backups and data transfers. You should customize it to specify which data should be included or excluded in various scenarios, such as cloud backups and device transfers, based on your app's specific data handling requirements. This helps you control the behavior of backups and data transfer operations for your app.
+## In summary, this XML file is a template for defining data extraction rules in the context of Android app backups and data transfers. 
+ - You should customize it to specify which data should be included or excluded in various scenarios, such as cloud backups and device transfers, based on your app's specific data handling requirements.
+ - This helps you control the behavior of backups and data transfer operations for your app.
