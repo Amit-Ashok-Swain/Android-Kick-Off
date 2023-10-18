@@ -1,4 +1,4 @@
-# The code you provided is an XML layout file for an Android app. 
+# An XML layout file for an Android app
 - It's using the ConstraintLayout, a powerful layout manager, to define the structure and positioning of UI elements within the layout. 
 - Let's break down the code:
 
@@ -45,6 +45,6 @@
         - `app:layout_constraintStart_toStartOf="parent"` constrains the TextView's left edge to the left edge of the parent.
         - `app:layout_constraintTop_toTopOf="parent"` constrains the top edge of the TextView to the top edge of the parent.
 
-# In summary, this layout file defines a single TextView centered within a ConstraintLayout. 
+### In summary, this layout file defines a single TextView centered within a ConstraintLayout. 
 - The TextView is constrained to be centered both vertically and horizontally within the parent ConstraintLayout. 
 - This layout can be used as the user interface for an Android activity, displaying the "Hello World!" text in the center of the screen.
