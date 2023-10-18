@@ -207,5 +207,6 @@ This example demonstrates how Android activities go through their lifecycle as y
     - You decide to exit the app. You press the back button or use another exit method.
     - The `onPause()`, `onStop()`, and `onDestroy()` methods of the main activity are called as the app is terminated.
 
-This example illustrates how Android activities within the Instagram app go through their lifecycle as you navigate through the app and respond to external events like notifications. The app efficiently manages its activities to provide a smooth user experience while interacting with the social media platform.
+- This example illustrates how Android activities within the Instagram app go through their lifecycle as you navigate through the app and respond to external events like notifications.
+- The app efficiently manages its activities to provide a smooth user experience while interacting with the social media platform.
 
