@@ -91,5 +91,4 @@ dependencies {
 ```
 
 - In the `dependencies` block, the project's dependencies are defined. These dependencies include AndroidX libraries, Material Design components, and testing libraries for unit and UI testing.
-
-### This build.gradle file is used to configure your Android project, specify dependencies, and set various project settings to build and run your Android application.
+- This build.gradle file is used to configure your Android project, specify dependencies, and set various project settings to build and run your Android application.
