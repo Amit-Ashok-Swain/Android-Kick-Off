@@ -74,11 +74,23 @@
 
 
 
-
+     <h1 align = "center"> Flow-Chart of Activity Lifecycle </h1>
 
 ![activity-lifecycle-image](https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/activity-lifecycle.png)
 
-
+1. First, when the activity is launched it gets created then it starts and then it resumes all in quick succession.
+2. It is only when the activity resumes that is ready for use. All this is done by the onCreate, onStart(), and onResume() methods respectively.
+3. Now, when the user moves on to the next screen or activity in the app. The current activity goes into a pause state and then the onPause() method is called.
+4. While using Android devices or an App we tend to come back to previous screens and this is the reason that the previous screens are not stopped immediately but instead, they enter the paused state.
+5. After a while, the inactive activity goes from the paused state to the stopped state. Thus the onStop() method is called.
+6. Then finally when we exit the app. The activity gets destroyed and then the onDestroy() method is called. This freezes up the resources and memory that were been used by the activity.
+7. Also, when the activity is in the stopped state the user navigates to the activity again. The activity starts again and the onRestart() method is called.
+8. Sometimes, when the activity is in the stopped state. The device may need memory for other high-priority apps so it destroys the activity.
+9. And so when the user navigates again to the activity. The activity is created again and onCreate() Method is called.
+10. Similarly, When the activity is in the paused state and the user navigates to the activity again. The activity resumes for interaction and onResume() Method is called.
+11. But again sometimes the system may need to free up the memory for other important apps and in this case, the activity is destroyed.
+12. And when the user navigates to the activity again, the onCreate() Method will be called again.
+- This is the usual behavior of the activity lifecycle. You ca refer to the flow-chart above while reading the above context.
 
 
 
@@ -102,7 +114,7 @@
 3. **Activity Transitions:**
     - When an activity transitions from the stopped to the running state, `onRestart()` is called before `onStart()`. This is often used for re-initializing resources that were released in `onStop()`.
     - When it transitions from the paused to the running state, `onResume()` is called, allowing you to resume activities that were paused.
-    - When it transitions from the running to the paused state, `onPause()` is called to pause ongoing work and save changes.
+    - When it transitions from running to the paused state, `onPause()` is called to pause ongoing work and save changes.
     - When it transitions from the running to the stopped state, `onStop()` is called, and you can release unnecessary resources.
 
 4. **Activity Lifecycle Scenarios:**
