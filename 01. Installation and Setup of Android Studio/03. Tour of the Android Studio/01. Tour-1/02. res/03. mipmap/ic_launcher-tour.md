@@ -1,4 +1,4 @@
-# The code you provided is an XML resource file that defines an adaptive icon for an Android app. 
+# An XML resource file that defines an adaptive icon for an Android app
 - Adaptive icons were introduced in Android Oreo (API level 26) to allow icons to display consistently across different Android devices and launcher styles. 
 - Let's break down the code:
 
@@ -34,6 +34,6 @@
 
 - The `<monochrome>` element specifies the monochrome layer of the adaptive icon. Monochrome icons are used in certain contexts, such as when the device is in grayscale mode. It also references the "ic_launcher_foreground" drawable for this layer.
 
-# In summary, this XML defines an adaptive icon with three layers: a background layer, a foreground layer, and a monochrome layer. 
+### In summary, this XML defines an adaptive icon with three layers: a background layer, a foreground layer, and a monochrome layer. 
 - The background and foreground layers are referenced by other drawable resources, allowing you to customize the appearance of the adaptive icon. 
 - Adaptive icons are used to ensure consistent and visually appealing icons on Android devices with various launcher styles and display configurations.

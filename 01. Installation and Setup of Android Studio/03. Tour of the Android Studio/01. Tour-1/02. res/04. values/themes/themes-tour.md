@@ -1,4 +1,4 @@
-# The code you provided is an XML resource file typically named `styles.xml`. 
+# An XML resource file typically named `themes.xml`. 
 - It's used to define style resources for an Android app. 
 - Let's break down the code:
 
@@ -31,6 +31,6 @@
 
 - This section defines another style with the name "Theme.ActivityLifecycle," which extends the "Base.Theme.ActivityLifecycle" style. This is typically used when you want to create variations of a base style. In this case, "Theme.ActivityLifecycle" is an extension of the base theme and can include additional customizations specific to this theme.
 
-# In summary, this XML resource file defines two styles: "Base.Theme.ActivityLifecycle," which is the base application theme, and "Theme.ActivityLifecycle," which is an extension of the base theme. \
+### In summary, this XML resource file defines two styles: "Base.Theme.ActivityLifecycle," which is the base application theme, and "Theme.ActivityLifecycle," which is an extension of the base theme.
 - These styles can be applied to different parts of your app's UI to control its visual appearance, such as colors, fonts, and other attributes. 
 - It's a common practice to use styles to ensure a consistent and appealing design throughout your Android app.

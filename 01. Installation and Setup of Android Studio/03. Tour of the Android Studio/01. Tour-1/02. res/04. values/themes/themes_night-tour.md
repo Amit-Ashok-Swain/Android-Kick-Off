@@ -1,4 +1,4 @@
-# The code you provided is an XML resource file typically named `styles.xml`. 
+# An XML resource file typically named `themes_night.xml`. 
 - It defines a base application theme for an Android app. 
 - Let's break down the code:
 
@@ -21,7 +21,7 @@
 
 - The `</style>` tag marks the end of the "Base.Theme.ActivityLifecycle" style definition.
 
-# In summary, this XML resource file defines a base application theme named "Base.Theme.ActivityLifecycle." 
+### In summary, this XML resource file defines a base application theme named "Base.Theme.ActivityLifecycle." 
 - This theme serves as the starting point for defining the visual style of your app. 
 - You can customize this theme for both dark and light themes by uncommenting the appropriate lines and specifying color references or other style attributes. 
 - Themes are a fundamental part of Android app development, allowing you to create a consistent and appealing design for your app's user interface.

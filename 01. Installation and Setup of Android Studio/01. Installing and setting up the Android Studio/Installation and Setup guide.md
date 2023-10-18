@@ -1,4 +1,5 @@
-# Installing and setting up Android Studio is a multi-step process. Android Studio is the official integrated development environment (IDE) for Android app development. Follow these steps to get Android Studio up and running on your computer:
+# Installing and setting up Android Studio is a multi-step process
+ ## Android Studio is the official integrated development environment (IDE) for Android app development. Follow these steps to get Android Studio up and running on your computer:
 
 **Note:** Before you begin, make sure your computer meets the system requirements for Android Studio, and you have a stable internet connection.
 
@@ -36,6 +37,6 @@
 10. **Start Developing:**
     - You are now ready to start developing Android applications in Android Studio. Learn the basics of Android development, including XML layout files and Java or Kotlin programming.
 
-## Remember to regularly update your SDK components and Android Studio to ensure you have access to the latest tools and features for Android app development.
+#### Remember to regularly update your SDK components and Android Studio to ensure you have access to the latest tools and features for Android app development.
 
-## Once you've set up Android Studio, you can begin developing Android applications and testing them on virtual devices or physical Android devices.
+#### Once you've set up Android Studio, you can begin developing Android applications and testing them on virtual devices or physical Android devices.
