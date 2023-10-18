@@ -1,4 +1,4 @@
-# The code you provided is an XML resource file, typically named `backup_rules.xml`. 
+# An XML resource file, typically named `backup_rules.xml`. 
 - It's used to define rules for specifying what data should be included or excluded in Android app backups. 
 - Let's break down the code:
 
@@ -40,6 +40,6 @@
 
   - `<exclude>` rules specify data to be excluded from backups. In this example, it excludes a specific file named "device.xml" within the "sharedpref" domain.
 
-# It's important to customize these rules to match the specific data and requirements of your app. 
+### It's important to customize these rules to match the specific data and requirements of your app. 
 - By defining backup rules, you can control which data is included in app backups, helping users restore their data when they reinstall or transfer the app to a new device. 
 - Backup rules are especially useful for preserving app settings, user preferences, and other essential data.
