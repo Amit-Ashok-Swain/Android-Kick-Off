@@ -46,79 +46,64 @@ In the standard Android activity lifecycle, `onDestroy()` is supposed to be call
 # Let's understand it with example:
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/01.png" alt="Image Description" />
 </p>
 
-*Image Description: The mobile device is connected with Android Studio and device mirroring is on the screen.*
+*Image Description: The mobile device is connected to Android Studio and device mirroring is on the screen.*
 
  <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/02.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/02.png" alt="Image Description" /></p>
 
-*Image Description: Navigation of 'run' Button in Android Studio.*
+*Image Description: Navigation of the 'run' Button in Android Studio.*
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/03.png" alt="Image Description" /></p>
 
-*Image Description: Running is Process.*
+*Image Description: Running is a Process.*
 
  <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/02.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/04.png" alt="Image Description" /></p>
 
-*Image Description: Successfully the App has run and displaying the main activity .*
+*Image Description: Successfully the App has run and displayed the main activity .*
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/05.png" alt="Image Description" /></p>
 
-*Image Description: The connected message in in 'run' console box and later navigate to 'Logcat' button.*
+*Image Description: The connected message is in the 'run' console box and later navigates to the 'Logcat' button.*
 
  <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/02.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/06.png" alt="Image Description" /></p>
 
-<p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
 
-*Image Description: Search "System.out" in 'Logcat' console box an you'll be able to see Activity callback methods in Logcat console box.*
+*Image Description: Search "System.out" in the 'Logcat' console box and you'll be able to see Activity callback methods in the Logcat console box.*
 
  <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/02.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/07.png" alt="Image Description" /></p>
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/08.png" alt="Image Description" /></p>
 
-*Image Description: onStart function is called as soon as the App was active and after clicking 'home button' in mobile it went to onPause and onStop state.*
+*Image Description: The onStart function is called as soon as the App is active and after clicking the 'home button' on mobile it goes to onPause and onStop state.*
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/09.png" alt="Image Description" /></p>
+
+<p align="center">
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/10.png" alt="Image Description" /></p>
+ 
+*Image Description: Open the recent app button and again resume the app onRestart onStart and the onResume method is called.*
+
+<p align="center">
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/11.png" alt="Image Description" /></p>
+
+*Image Description: Click the back button again the activity calls on onPause and onStop methods .*
 
  <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/02.png" alt="Image Description" />
-</p>
-
-*Image Description: Open in the recent app button and again resuming the app onRestart onStart and onResume method is called.*
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/12.png" alt="Image Description" /></p>
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
+ <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-2-Running-the-App/13.png" alt="Image Description" /></p>
 
-*Image Description: Click the back button again the activity calls onPause and onStop methods .*
-
- <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/02.png" alt="Image Description" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Creating-Callbacks-in-the-Activity-Class/Bundle/01.png" alt="Image Description" />
-</p>
-
-*Image Description: Click recent app button and clearing it from memory then it calls onDestroy method.*
+*Image Description: Click the recent app button and clear it from memory then it calls the onDestroy method.*
 
 
