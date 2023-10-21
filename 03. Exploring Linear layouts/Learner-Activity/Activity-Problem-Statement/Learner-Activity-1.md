@@ -6,4 +6,11 @@
 - Make sure you do this activity, since we will be building further on this screen in the next video.
 - Using the Linear Layout and the attribute android:layout_gravity (referred to in the above Learner Activity), try to make the screen given below.
 
+   <h3 align = "center"> Output: </h3>
+
+
+<p align="center">
+<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Adding-Button-and-EditText-Tags-in-UI/01.png" alt="Image Description" />
+</p>
+
    
