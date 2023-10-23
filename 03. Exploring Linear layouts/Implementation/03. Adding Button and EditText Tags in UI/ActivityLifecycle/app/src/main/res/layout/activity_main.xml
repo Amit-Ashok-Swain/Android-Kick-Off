@@ -11,77 +11,68 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/welcome_to_android_kick_off_with_amit_swain"
-        android:textSize="15sp"
         android:padding="10dp"
-        android:textStyle="bold"
+        android:text="@string/welcome_to_android_kick_off_with_amit_swain"
         android:textColor="#ff5722"
-        />
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       android:layout_gravity="center"
-        android:text="@string/welcome_to_tony_stark_portal"
-        android:textSize="15sp"
+        android:layout_gravity="center"
         android:padding="10dp"
-        android:textStyle="italic"
+        android:text="@string/welcome_to_tony_stark_portal"
         android:textColor="#2196f3"
-        />
+        android:textSize="15sp"
+        android:textStyle="italic" />
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginRight="120dp"
         android:layout_gravity="center"
+        android:layout_marginLeft="120dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/tony_stark"
-        />
+        android:contentDescription="@string/tony_stark"
+        android:src="@drawable/tony_stark" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
+        android:layout_margin="20dp"
         android:hint="@string/enter_your_name_here"
-        android:layout_margin="20dp"
         android:inputType="text"
-        />
+        android:padding="20dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
+        android:layout_margin="20dp"
         android:hint="@string/enter_your_password_here"
-        android:layout_margin="20dp"
         android:inputType="textPassword"
-        />
+        android:padding="20dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/login"
         android:background="#F63D03"
+        android:text="@string/login"
         android:textColor="#212121"
-        android:textStyle="bold"
         android:textSize="20sp"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/sign_up"
         android:background="#ff3d00"
+        android:text="@string/sign_up"
         android:textColor="#212121"
-        android:textStyle="bold"
         android:textSize="20sp"
-        />
-
-
-
+        android:textStyle="bold" />
 
 
 </LinearLayout>

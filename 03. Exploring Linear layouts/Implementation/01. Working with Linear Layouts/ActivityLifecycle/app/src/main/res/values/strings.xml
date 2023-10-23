@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Activity Lifecycle</string>
+    <string name="this_is_linear_layout_ui_tutorial">This is Linear Layout UI Tutorial</string>
 </resources>

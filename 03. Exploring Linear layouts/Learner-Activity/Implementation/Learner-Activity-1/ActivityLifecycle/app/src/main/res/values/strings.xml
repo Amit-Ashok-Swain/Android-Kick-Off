@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Activity Lifecycle</string>
+    <string name="tony_stark">Tony_Stark</string>
+    <string name="tony_stark_text">Tony Stark</string>
+    <string name="tony_startkindustries_com">tony@startkindustries.com</string>
+    <string name="_91_11155555">+91 11155555</string>
 </resources>

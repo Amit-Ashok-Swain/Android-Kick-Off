@@ -10,6 +10,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is Linear Layout UI Tutorial"/>
+        android:text="@string/this_is_linear_layout_ui_tutorial"/>
 
 </LinearLayout>
