@@ -10,7 +10,7 @@
 
 
 <p align="center">
-<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Adding-Button-and-EditText-Tags-in-UI/01.png" alt="Image Description" />
+<img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-3.1-Exploring-Linear-Layouts/01.png" alt="Image Description" />
 </p>
 
 <p align="center">
