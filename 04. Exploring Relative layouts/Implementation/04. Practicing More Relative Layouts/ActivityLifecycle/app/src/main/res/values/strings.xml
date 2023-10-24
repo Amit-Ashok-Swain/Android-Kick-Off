@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Activity Lifecycle</string>
+    <string name="android_is_fun">Android is fun</string>
+    <string name="welcome_to_android_kick_off_with_amit_swain">Welcome to Android Kick-Off with Amit Swain</string>
+    <string name="click_here">Click Here!</string>
+    <string name="enter_your_name_here">Enter your Name here</string>
+    <string name="welcome_to_tony_stark_portal">Welcome to Tony Stark Portal!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password_here">Enter Your Password here</string>
+    <string name="tony_stark">Tony_Stark</string>
+</resources>
