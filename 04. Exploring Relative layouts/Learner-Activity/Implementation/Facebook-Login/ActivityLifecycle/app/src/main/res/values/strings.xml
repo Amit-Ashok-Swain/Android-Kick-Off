@@ -11,4 +11,9 @@
     <string name="tony_stark">Tony_Stark</string>
     <string name="forget_password">Forget Password?</string>
     <string name="enter_your_e_mail_here">Enter Your E-mail here</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up_for_facebook">Sign Up for Facebook</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="username_or_email">Username or Email</string>
 </resources>

@@ -9,4 +9,10 @@
     <string name="login">Login</string>
     <string name="enter_your_password_here">Enter Your Password here</string>
     <string name="tony_stark">Tony_Stark</string>
+    <string name="next">Next</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_email">Forgot Email?</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="with_your_google_account">with your Google account</string>
+    <string name="sign_in">Sign In</string>
 </resources>

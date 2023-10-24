@@ -9,4 +9,8 @@
     <string name="login">Login</string>
     <string name="enter_your_password_here">Enter Your Password here</string>
     <string name="tony_stark">Tony_Stark</string>
+    <string name="tony_stark_text">Tony Stark</string>
+    <string name="tony_email">tony@starkindustries.com</string>
+    <string name="_91_11155555">+91 11155555</string>
+    <string name="more_information">More Information</string>
 </resources>

@@ -11,8 +11,10 @@
         android:padding="10dp"
         android:text="@string/welcome_to_android_kick_off_with_amit_swain"
         android:textColor="#ff5722"
-        android:textSize="15sp"
-        android:textStyle="bold" />
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
 
     <TextView
         android:id="@+id/txtLayoutSubHeader"
@@ -23,28 +25,32 @@
         android:text="@string/welcome_to_tony_stark_portal"
         android:textColor="#2196f3"
         android:textSize="15sp"
-        android:textStyle="italic" />
-
-    <ImageView
-        android:id="@+id/imgTonyStark"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="120dp"
-        android:layout_marginBottom="20dp"
-        android:contentDescription="@string/tony_stark"
-        android:src="@drawable/tony_stark" />
+        android:textStyle="italic"
+        android:layout_below="@+id/txtLayoutHeader"
+        android:layout_centerInParent="true"/>
 
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="@string/enter_your_name_here"
-        android:inputType="text"
-        android:padding="20dp" />
+        android:hint="@string/enter_your_e_mail_here"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:layout_below="@+id/imgTonyStark"/>
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/tony_stark"
+        android:src="@drawable/tony_stark"
+        android:layout_below="@+id/txtLayoutSubHeader"
+        android:layout_centerHorizontal="true"/>
 
     <EditText
         android:id="@+id/etPassword"
@@ -53,29 +59,48 @@
         android:layout_margin="20dp"
         android:hint="@string/enter_your_password_here"
         android:inputType="textPassword"
-        android:padding="20dp" />
+        android:padding="20dp"
+        android:layout_below="@+id/etName"/>
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="#F63D03"
+        android:background="#2979ff"
         android:text="@string/login"
         android:textColor="#212121"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/etPassword"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSignUp"
+        android:layout_margin="3dp"
+        android:padding="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="#c62828"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="31dp"
+        android:text="@string/forget_password"
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="#ff3d00"
+        android:background="#2979ff"
         android:text="@string/sign_up"
         android:textColor="#212121"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
 
 
 </RelativeLayout>

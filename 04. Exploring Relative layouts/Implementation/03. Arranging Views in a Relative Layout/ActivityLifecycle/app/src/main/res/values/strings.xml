@@ -9,4 +9,6 @@
     <string name="login">Login</string>
     <string name="enter_your_password_here">Enter Your Password here</string>
     <string name="tony_stark">Tony_Stark</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="enter_your_e_mail_here">Enter Your E-mail here</string>
 </resources>
