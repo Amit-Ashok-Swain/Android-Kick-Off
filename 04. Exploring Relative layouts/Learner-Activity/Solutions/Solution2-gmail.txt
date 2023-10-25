@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#ffffff"
+   tools:context=".activity.GoogleLogin">
+
+   <!--Here we chose the relative layout since we need to
+   distribute the widgets all around the page and not in a
+   set horizontal or vertical order.-->
+
+   <!--It's the same ImageView that we had learnt.-->
+
+   <ImageView
+       android:id="@+id/imgGLogo"
+       android:layout_width="160dp"
+       android:layout_height="40dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="30dp"
+       android:padding="4dp"
+       android:src="@drawable/g_logo" />
+
+   <!--The TextView for headings and other static texts→
+
+   <TextView
+       android:id="@+id/txtSignIn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/imgGLogo"
+       android:layout_centerHorizontal="true"
+       android:padding="6dp"
+       android:text="Sign In"
+       android:textColor="#000000"
+       android:textSize="24sp"
+       android:textStyle="bold" />
+
+
+   <TextView
+       android:id="@+id/txtUseAccount"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txtSignIn"
+       android:layout_centerHorizontal="true"
+       android:padding="4dp"
+       android:text="with your Google account"
+       android:textColor="#000000" />
+
+   <!--Edittext for user input where the user can input the email,
+   hence we have also placed the inputType as textEmailAddress.--!>
+
+   <EditText
+       android:id="@+id/etEmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txtUseAccount"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="30dp"
+       android:layout_marginRight="10dp"
+       android:hint="Username or Email"
+       android:inputType="textEmailAddress"
+       android:maxLines="1"
+       android:padding="10dp"
+       android:textColor="#000000" />
+
+   <TextView
+       android:id="@+id/txtForgotEmail"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/etEmail"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:padding="10dp"
+       android:text="Forgot Email?"
+       android:textColor="#1769aa"
+       android:textStyle="bold" />
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="10dp"
+       android:layout_marginBottom="15dp"
+       android:padding="10dp"
+       android:text="Create Account"
+       android:textColor="#1769aa"
+       android:textStyle="bold" />
+
+
+   <Button
+       android:id="@+id/btnNext"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginRight="20dp"
+       android:layout_marginBottom="15dp"
+       android:background="#2196f3"
+       android:elevation="6dp"
+       android:padding="10dp"
+       android:text="Next"
+       android:textColor="@android:color/white"
+       android:textSize="14sp"
+       android:textStyle="bold" />
+
+</RelativeLayout>
+
+<!--Here a new attribute seen is ‘elevation’. As the name suggests, it 
+   elevates the button to a certain height. The elevation can be seen with a 
+   small drop shadow underneath the button--!>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#3b5998”
+   android:orientation="vertical">
+
+   <!--While making layouts, you might see some warnings
+   which can be identified as the yellow highlighted code. As of now
+   you can choose to ignore these as it won't prevent the execution
+   of the app.-->
+
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="80dp"
+       android:src="@drawable/fb_logo" />
+
+   <!--EditText: The text field which is capable of user input.
+   It works similar to the TextView but this can accept user input.--!>
+
+   Let's understand a few attributes we have used here:
+
+   1. BackgroundTint: It is applied to the EditText to change
+   the color of the input field. This will not change the background
+   of the complete widget but will only change the outline part present in the field. 
+
+   2. FontFamily: This is used to change the font of the text present either
+   in TextView or in EditText. You can research more about it on the internet
+   to learn how to add a new font.
+
+   3. Hint: It is the text you see when the app user has not interacted with
+   the text field. You can also call it the ‘prompt’ which tells the user what to do in the app.
+
+   4. TextColor and TextColorHint: They refer to the color of the input text
+   and the color of the hint present respectively.
+
+  5. MaxLines: As the name suggests, it is used to specify the maximum number of lines
+   an EditText can have. We add this so that when the user presses enter, a new line is not added. 
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="80dp"
+       android:layout_marginRight="20dp"
+       android:backgroundTint="#d3d3d3"
+       android:hint="Username or Email"
+       android:inputType="textEmailAddress"
+       android:maxLines="1"
+       android:padding="10dp"
+       android:textColor="#ffffff"
+       android:textColorHint="#d3d3d3" />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="20dp"
+       android:backgroundTint="#d3d3d3"
+       android:hint="Password"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:padding="10dp"
+       android:textColor="#ffffff"
+       android:textColorHint="#d3d3d3" />
+
+
+   <!--We already learned about the buttons→
+
+   <Button
+       android:id="@+id/btnLogin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="35dp"
+       android:layout_marginRight="20dp"
+       android:background="#5c6bc0"
+       android:padding="10dp"
+       android:text="Log In"
+       android:textColor="#ffffff"
+       android:textSize="16sp"
+       android:textStyle="bold" />
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/txtSignUp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:text="Sign Up for Facebook"
+               android:textColor="#ffffff" />
+
+
+           <TextView
+               android:id="@+id/txtForgotPassword"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="15dp"
+               android:layout_marginBottom="15dp"
+               android:text="Forgot Password?"
+               android:textColor="#ffffff" />
+       </LinearLayout>
+
+   </RelativeLayout>
+
+
+</LinearLayout>
