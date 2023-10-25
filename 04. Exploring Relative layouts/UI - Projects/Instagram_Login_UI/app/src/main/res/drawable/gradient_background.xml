@@ -1,0 +1,38 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- White gradient -->
+    <item android:top="15dp">
+        <shape>
+            <gradient
+                android:startColor="#1C0808"
+            />
+        </shape>
+    </item>
+    <!-- Yellow gradient (5%) -->
+    <item android:top="55dp">
+        <shape>
+            <gradient
+                android:startColor="#19190E" />
+
+        </shape>
+    </item>
+
+    <!-- Pink gradient (5%) -->
+    <item android:top="25dp">
+        <shape>
+            <gradient
+                android:startColor="#290606"/>
+        </shape>
+    </item>
+
+    <!-- Black gradient (15%) -->
+    <item android:right="15dp">
+
+        <shape>
+            <gradient
+                android:startColor="#1C276C"/>
+        </shape>
+    </item>
+
+
+
+</layer-list>

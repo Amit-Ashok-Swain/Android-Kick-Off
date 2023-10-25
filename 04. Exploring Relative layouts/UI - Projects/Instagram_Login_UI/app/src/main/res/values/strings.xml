@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Instagram_Login_UI</string>
+    <string name="english_india">English (India)</string>
+    <string name="username_email_address_or_mobile_number">Username, email address or mobile number</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgotten_password">Forgotten Password?</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="instagram_logo">Instagram Logo</string>
+    <string name="meta_logo">Meta Logo</string>
+</resources>
