@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgGoogleLogo"
+        android:layout_width="90dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/google_logo"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/google_logo" />
+
+    <TextView
+        android:id="@+id/txtSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgGoogleLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:padding="10dp"
+        android:text="@string/sign_in"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtWithYourGoogleAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/with_your_google_account"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/txtSignIn"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/txtWithYourGoogleAccount"
+        android:layout_below="@id/txtSignIn"
+        android:text="@string/learn_more"
+        android:textColor="#007bff"
+        android:layout_marginEnd="30dp"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etEmailOrPhone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email_or_phone"
+        android:textColorHint="#90a4ae"
+        android:layout_below="@+id/txtWithYourGoogleAccount"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_border"
+        android:autofillHints="emailAddress"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:id="@+id/txtForgotEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_email"
+        android:layout_below="@id/etEmailOrPhone"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="25dp"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:textColor="#007bff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:layout_below="@id/txtForgotEmail"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="25dp"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:textColor="#007bff"
+        />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">G-Mail_Login_UI</string>
+    <string name="sign_in">Sign in</string>
+    <string name="with_your_google_account">with your Google Account.</string>
+    <string name="learn_more">Learn More</string>
+    <string name="google_logo">Google Logo</string>
+    <string name="email_or_phone">Email or phone</string>
+    <string name="forgot_email">Forgot email?</string>
+    <string name="create_account">Create account</string>
+    <string name="next">Next</string>
+</resources>
