@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Facebook_Login_UI</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up_for_facebook">Sign Up for Facebook</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="facebook_logo">Facebook Logo</string>
+</resources>

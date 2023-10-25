@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b5998">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/facebook_logo"
+        android:contentDescription="@string/facebook_logo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d3d3d3"
+        android:hint="@string/email_or_username"
+        android:padding="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#d3d3d3"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d3d3d3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:textColorHint="#d3d3d3"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:autofillHints="password"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/log_in"
+        android:background="#5c6bc0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sign_up_for_facebook"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forget_password"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+            
+
+    </RelativeLayout>        
+
+
+</LinearLayout>
