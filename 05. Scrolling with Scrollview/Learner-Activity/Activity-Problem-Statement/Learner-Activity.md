@@ -12,12 +12,16 @@
 
    <h3 align = "center">  Image Description: ScrollView UI of Avenger's Characters </h3>
 
-     <p align="center">
+
+   
+   <p align="center">
   <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/02.png" alt="Image Description" />
        </p>
+
   <p align="center">
   <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/03.png" alt="Image Description" />
        </p>
+
   <p align="center">
   <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/04.png" alt="Image Description" />
        </p>
