@@ -5,7 +5,7 @@
 <h3 align = "center">  Image Description: Previous Learner Activity UI </h3>
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/01.png" alt="Image Description" />
        </p>
 
  - Let's try to create a ScrollView by adding more 5 Avenger's Characters to the UI
@@ -13,13 +13,13 @@
    <h3 align = "center">  Image Description: ScrollView UI of Avenger's Characters </h3>
 
      <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/02.png" alt="Image Description" />
        </p>
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/03.png" alt="Image Description" />
        </p>
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/04.png" alt="Image Description" />
        </p>
 
 
@@ -35,18 +35,18 @@
  <h3 align = "center">  Image Description: Outputs </h3>
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/Outputs/01.png" alt="Image Description" />
        </p>
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/Outputs/02.png" alt="Image Description" />
        </p>
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/Outputs/03.png" alt="Image Description" />
        </p>
     <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/Outputs/04.png" alt="Image Description" />
        </p>
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Practicing-More-Relative-Layouts/Hints/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/Outputs/05.png" alt="Image Description" />
        </p>
 
