@@ -9,11 +9,7 @@
        </p>
 
  - Let's try to create a ScrollView by adding more 5 Avenger's Characters to the UI
-
-   <h3 align = "center">  Image Description: ScrollView UI of Avenger's Characters </h3>
-
-
-   
+ 
    <p align="center">
   <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/02.png" alt="Image Description" />
        </p>
@@ -25,6 +21,8 @@
   <p align="center">
   <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-5.1-ScrollView/04.png" alt="Image Description" />
        </p>
+
+   <h3 align = "center">  Image Description: ScrollView UI of Avenger's Characters </h3>
 
 
  # Resources 
