@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Activity Lifecycle</string>
+    <string name="new_app_name">Avengers</string>
     <string name="android_is_fun">Android is fun</string>
     <string name="welcome_to_android_kick_off_with_amit_swain">Welcome to Android Kick-Off with Amit Swain</string>
     <string name="click_here">Click Here!</string>
