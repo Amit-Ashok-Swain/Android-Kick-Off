@@ -15,19 +15,19 @@
 
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Adding-Clicks-to-Views-in-the-Layout-file/Outputs/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-7.2-Make-the-Send-Message-App/01.png" alt="Image Description" />
        </p>
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Adding-Clicks-to-Views-in-the-Layout-file/Outputs/02.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-7.2-Make-the-Send-Message-App/02.png" alt="Image Description" />
        </p>
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Adding-Clicks-to-Views-in-the-Layout-file/Outputs/03.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-7.2-Make-the-Send-Message-App/03.png" alt="Image Description" />
        </p>
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Adding-Clicks-to-Views-in-the-Layout-file/Outputs/03.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Learner-Activity/Learner-Activity-7.2-Make-the-Send-Message-App/04.png" alt="Image Description" />
        </p>
 
 
