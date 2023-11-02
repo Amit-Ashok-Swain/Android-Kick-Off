@@ -9,7 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
-
+    /*
     lateinit var etMobileNumber : EditText
     lateinit var etPassword : EditText
     lateinit var btnLogIn : Button
@@ -19,12 +19,16 @@ class LoginActivity : AppCompatActivity() {
     val validMobileNumber = "0123456789"
     val validPassword = arrayOf("tony","steve","thor","bruce","t'challa", "natasha")
 
+ */
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
         title = "Welcome to Avenger's Login Portal !"
-
+    }
+}
+/*
         etMobileNumber = findViewById(R.id.etMobileNumber)
         etPassword = findViewById(R.id.etPassword)
         btnLogIn = findViewById(R.id.btnLogIn)
@@ -158,4 +162,8 @@ class LoginActivity : AppCompatActivity() {
         finish()
     }
 
+
+
 }
+
+ */

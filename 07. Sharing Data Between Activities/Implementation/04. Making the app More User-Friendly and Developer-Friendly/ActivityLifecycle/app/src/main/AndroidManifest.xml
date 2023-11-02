@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ActivityLifecycle"
         tools:targetApi="31">
         <activity
-            android:name=".NewActivity"
+            android:name=".LoginActivity"
             android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />

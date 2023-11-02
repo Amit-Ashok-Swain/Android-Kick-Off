@@ -43,81 +43,107 @@ class LoginActivity : AppCompatActivity() {
 
             if (mobileNumber == validMobileNumber) {
 
-                if (password == validPassword[0]) {
+                when (password) {
 
-                    greeting = "Hello! Iron Man"
+                    validPassword[0] -> {
 
-                    Toast.makeText(
-                        this@LoginActivity,
-                        "Welcome to the portal, Tony Stark",
-                        Toast.LENGTH_LONG
-                    ).show()
+                        greeting = "Hello! Iron Man"
 
-                    intent.putExtra("Greeting",greeting)
-                    startActivity(intent)
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Welcome to the portal, Tony Stark",
+                            Toast.LENGTH_LONG
+                        ).show()
 
-                } else if (password == validPassword[1]){
+                        intent.putExtra("Greeting", greeting)
+                        startActivity(intent)
 
-                  greeting = "Hello! Captain America"
+                    }
 
-                    Toast.makeText(
-                        this@LoginActivity,
-                        "Welcome to the portal, Steve Rogers",
-                        Toast.LENGTH_LONG).show()
+                    validPassword[1] -> {
 
-                    intent.putExtra("Greeting",greeting)
-                    startActivity(intent)
+                        greeting = "Hello! Captain America"
 
-                } else if(password == validPassword[2]){
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Welcome to the portal, Steve Rogers",
+                            Toast.LENGTH_LONG
+                        ).show()
 
-                    greeting = "Hello! Thor"
+                        intent.putExtra("Greeting", greeting)
+                        startActivity(intent)
 
-                    Toast.makeText(this@LoginActivity,
-                        "Welcome to the portal, Thor Odin-son",
-                        Toast.LENGTH_LONG).show()
+                    }
 
-                    intent.putExtra("Greeting",greeting)
-                    startActivity(intent)
+                    validPassword[2] -> {
 
-                } else if(password == validPassword[3]){
+                        greeting = "Hello! Thor"
 
-                    greeting = "Hello! Hulk"
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Welcome to the portal, Thor Odin-son",
+                            Toast.LENGTH_LONG
+                        ).show()
 
-                    Toast.makeText(this@LoginActivity,
-                        "Welcome to the portal, Dr Bruce Banner",
-                        Toast.LENGTH_LONG).show()
+                        intent.putExtra("Greeting", greeting)
+                        startActivity(intent)
 
-                    intent.putExtra("Greeting",greeting)
-                    startActivity(intent)
+                    }
 
-                }else if(password == validPassword[4]){
+                    validPassword[3] -> {
 
-                    greeting = "Hello! Black Panther"
+                        greeting = "Hello! Hulk"
 
-                    Toast.makeText(this@LoginActivity,
-                        "Welcome to the portal, T' Challa",
-                        Toast.LENGTH_LONG).show()
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Welcome to the portal, Dr Bruce Banner",
+                            Toast.LENGTH_LONG
+                        ).show()
 
-                    intent.putExtra("Greeting",greeting)
-                    startActivity(intent)
+                        intent.putExtra("Greeting", greeting)
+                        startActivity(intent)
 
-                }else if(password == validPassword[5]){
+                    }
 
-                    greeting = "Hello! Black Widow"
+                    validPassword[4] -> {
 
-                    Toast.makeText(this@LoginActivity,
-                        "Welcome to the portal, Natasha Romanova",
-                        Toast.LENGTH_LONG).show()
+                        greeting = "Hello! Black Panther"
 
-                    intent.putExtra("Greeting",greeting)
-                    startActivity(intent)
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Welcome to the portal, T' Challa",
+                            Toast.LENGTH_LONG
+                        ).show()
 
-                }else{
-                    Toast.makeText(this@LoginActivity,
-                        "Incorrect Email or Password",
-                        Toast.LENGTH_LONG).show()
+                        intent.putExtra("Greeting", greeting)
+                        startActivity(intent)
+
+                    }
+
+                    validPassword[5] -> {
+
+                        greeting = "Hello! Black Widow"
+
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Welcome to the portal, Natasha Romanova",
+                            Toast.LENGTH_LONG
+                        ).show()
+
+                        intent.putExtra("Greeting", greeting)
+                        startActivity(intent)
+
+                    }
+
+                    else -> {
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Incorrect Password",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
                 }
-            }else{
+            }else {
                 Toast.makeText(this@LoginActivity,
                     "Invalid Credentials",
                     Toast.LENGTH_LONG).show()

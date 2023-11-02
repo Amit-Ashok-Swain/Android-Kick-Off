@@ -34,4 +34,6 @@
     <string name="log_in">Log In</string>
     <string name="forget_password">Forget Password</string>
     <string name="register_yourself">Register Yourself</string>
+    <string name="enter_your_text_here">Enter your Text Here</string>
+    <string name="send">Send</string>
 </resources>

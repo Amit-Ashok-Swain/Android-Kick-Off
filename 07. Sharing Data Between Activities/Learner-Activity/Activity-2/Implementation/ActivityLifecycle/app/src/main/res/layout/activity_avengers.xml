@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvengersActivity"
+    android:orientation="vertical">
+
+ <EditText
+     android:id="@+id/etTextMessage"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="50dp"
+     android:layout_marginLeft="15dp"
+     android:layout_marginRight="15dp"
+     android:hint="@string/enter_your_text_here"
+     android:inputType="text"
+     android:maxLines="128"
+     android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTextMessage"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/send"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
