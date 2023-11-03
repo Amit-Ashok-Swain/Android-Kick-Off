@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/txtLayoutHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am learning android from Internshala"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="#0d47a1"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:id="@+id/txtLayoutSubHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android is fun"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_below="@id/txtLayoutHeader"
+            android:textStyle="italic"
+            android:textColor="#b71c1c"
+            android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+            android:id="@+id/imgTonyStark"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/tony_stark"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"/>
+
+    <Button
+            android:id="@+id/btnNewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="New Button"
+            android:background="#0091ea"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"/>
+
+
+    <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:layout_margin="20dp"
+            android:layout_below="@id/txtLayoutSubHeader"
+            android:inputType="textPassword"/>
+
+</RelativeLayout>
