@@ -66,7 +66,7 @@
 <h5 align = "center">  Image Description: Splash Screen </h5>
 
   <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/images/Final-Project/01.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Final-Project/01.png" alt="Image Description" />
        </p>
   <h6 align = "center">  Image Description: (*Don’t worry if you fail to find the functionality on Google. Refer to the cheat code given at the end of this document). </h6>
 
@@ -87,7 +87,7 @@
 <h5 align = "center">  Image Description: Login Page </h5>
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/images/Final-Project/02.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Final-Project/02.png" alt="Image Description" />
        </p>
 
 #### Bonus:
@@ -112,7 +112,7 @@
 <h5 align = "center">  Image Description: Registration Page </h5>
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/images/Final-Project/03.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Final-Project/03.png" alt="Image Description" />
        </p>
 
 ### Forgot Password Page
@@ -126,7 +126,7 @@
 <h5 align = "center">  Image Description: Forget Password Page </h5>
 
 <p align="center">
-  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/images/Final-Project/04.png" alt="Image Description" />
+  <img src="https://github.com/Amit-Ashok-Swain/Android-Kick-Off/blob/main/images/Final-Project/04.png" alt="Image Description" />
        </p>
 
 ## Cheat Code:
