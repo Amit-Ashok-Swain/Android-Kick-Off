@@ -31,6 +31,8 @@ Welcome to "Android Kick-Off - The Android Development Course." This comprehensi
 6. [Getting Started](#getting-started)
 7. [License](#license)
 8. [Contact](#contact)
+9. [Contact](#contact)
+10. [Show your support](#show_your_support)
 
 ## Course Overview
 
